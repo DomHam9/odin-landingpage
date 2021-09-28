@@ -1,12 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
     padding: 0;
+    margin: 0;
     /*border: 1px solid red;*/
 }
 
-body{
-    margin: 0;
-}
+
 
 
 /* ------- Header logo and nav area ------- */
@@ -191,10 +190,11 @@ body{
     border-radius: 10px; 
     border: 2px solid #F9FaF8;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 
-/* ------- action sign up area ------- */
+/* ------- footer ------- */
 
 
 .footer{
